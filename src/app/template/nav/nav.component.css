@@ -1,0 +1,39 @@
+.sidenav{
+    background-color: #3f5185;
+    width: 12vw;
+    height: 80%;
+    margin-top: 10vh;
+    overflow: hidden;
+}
+.nav-list{
+    overflow: hidden;
+}
+.sidenav a{
+    color: #ffffff;
+}
+.sidenav i{
+    padding-right: 10px;
+}
+
+.content{
+    padding: 16px;
+    background-color: #fff;
+}
+.mat-drawer-inner-container {
+    overflow: hidden;
+}
+.menu-flex{
+    display: flex ;
+    flex-direction: column ;
+    align-items: center;
+}
+
+@media (max-width: 600px){
+    .sidenav{
+     
+        width: 100px;
+        overflow: hidden;
+
+    }
+
+}

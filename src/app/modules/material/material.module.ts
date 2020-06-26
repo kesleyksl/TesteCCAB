@@ -77,8 +77,7 @@ import {MatRadioModule} from '@angular/material/radio';
     MatTabsModule,
     MatToolbarModule,
     MatTooltipModule,
-    MatTreeModule,
-    FlexLayoutModule,
+    MatTreeModule
   ],
   declarations: []
 })
