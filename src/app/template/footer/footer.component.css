@@ -6,6 +6,9 @@
     justify-content: flex-end;
     height: 10vh;
 
+    z-index: 2;
+
+
 }
 
 

@@ -1,0 +1,14 @@
+.details-card{
+    width: 50%;
+    margin-bottom: 12vh;
+}
+.detail-title{
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+@media (max-width: 600px){
+    .details-card{
+        width: 90%;
+    }
+}

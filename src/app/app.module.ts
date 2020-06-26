@@ -10,6 +10,9 @@ import { NavComponent } from './template/nav/nav.component';
 import { UserComponent } from './views/user/user.component';
 import { UserListComponent } from './components/user-list/user-list.component';
 import { AppRoutingModule } from './app.routing.module';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { UserDetailsComponent } from './components/user-details/user-details.component';
 
 @NgModule({
   declarations: [
@@ -18,13 +21,16 @@ import { AppRoutingModule } from './app.routing.module';
     HeaderComponent,
     NavComponent,
     UserComponent,
-    UserListComponent
+    UserListComponent,
+    UserDetailsComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MaterialModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

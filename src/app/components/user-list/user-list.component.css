@@ -1,0 +1,10 @@
+.user{
+    cursor: pointer;
+}
+.user:hover{
+    background-color: #eeeeee;
+}
+.list-title{
+    color: black !important;
+    margin-right: 10px;
+}

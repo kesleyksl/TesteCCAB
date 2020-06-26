@@ -18,6 +18,9 @@
 .content{
     padding: 16px;
     background-color: #fff;
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+ 
 }
 .mat-drawer-inner-container {
     overflow: hidden;
@@ -31,7 +34,7 @@
 @media (max-width: 600px){
     .sidenav{
      
-        width: 100px;
+        width: 70px;
         overflow: hidden;
 
     }
